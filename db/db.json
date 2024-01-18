@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": "1705545546240",
+      "productName": "Product 1",
+      "description": "This is a test product of PRODUCT 1"
+    },
+    {
+      "id": "1705545640609",
+      "productName": "Product 2",
+      "description": "This is a test product of PRODUCT 2"
+    },
+    {
+      "id": "1705545644864",
+      "productName": "Product 3",
+      "description": "This is a test product of PRODUCT 3"
+    }
+  ],
+  "_note_command": "json-server --watch db.json"
+}

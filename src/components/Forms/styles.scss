@@ -1,0 +1,17 @@
+.product-form {
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > .product-form-field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    > button {
+        margin-top: 15px;
+    }
+}
