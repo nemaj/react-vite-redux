@@ -15,6 +15,5 @@
       "productName": "Product 3",
       "description": "This is a test product of PRODUCT 3"
     }
-  ],
-  "_note_command": "json-server --watch db.json"
+  ]
 }

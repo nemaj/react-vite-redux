@@ -1,8 +1,59 @@
-# React + Vite
+# React + Vite with Redux and Redux saga
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+These instructions will get you a copy of the project up and running on your local machine for development purposes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Start with cloning this repo on your local machine:
+
+```sh
+$ git clone https://github.com/nemaj/react-vite-redux.git
+$ cd react-vite-redux
+```
+
+To install and set up the library, run:
+
+```sh
+$ npm install
+```
+
+And install json-server globally
+
+```sh
+$ npm install -g json-server
+```
+
+## Usage
+
+### Serving the app
+
+```sh
+$ npm run dev
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### Serving the Database JSON
+
+Run this code on the same directory `cd react-vite-redux`:
+
+```sh
+$ json-server db/db.json
+```
+
+Or `cd react-vite-redux/db`
+
+```sh
+$ json-server db.json
+```
+
+
+
+
+
